@@ -15,10 +15,10 @@
  - `back button`
 
 ## To Do  
-### 1. DataBase Setup
-- make table
-- add `user_id` foreign key relation (default to `uid()`)
-- add RLS `user_id = uid()` for all actions
+### 1. Database Setup
+- ✓ make table
+- ✓ add `user_id` foreign key relation (default to `uid()`)
+- ✓ add RLS `user_id = uid()` for all actions
 
 ### 2. Create Page
 - add form
@@ -26,7 +26,7 @@
 - add `submit` event listener
 - grab data using `new FormData` and send to supabase
 - redirect to List Page  
-_validation Step: New rows are appearing in supabase_
+_validation step: New rows are appearing in supabase_
 
 ### 3. List Page: list all items
 - add `ul`
@@ -53,5 +53,6 @@ _validation step: sign in as another user and ensure that you're only seeing aut
 ## copy zone  
  - `  
  - ~  
+ - ✓
  - !  
  - 1  
